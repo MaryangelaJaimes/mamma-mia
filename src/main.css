@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Snowburst+One&display=swap");
+
+.pizza-font {
+  font-family: "Snowburst One", cursive;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(src/assets/imagen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 22rem;
+  color: #ffffff;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.custom-navbar {
+  background-color: #f97a45;
+  color: white;
+}
+
+.custom-navbar .nav-link {
+  color: white;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffdab9;
+}
+
+.custom-card {
+  background-color: #fff2ec !important;
+}
+
+.custom-button {
+  background-color: #f97a45 !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #d96640 !important;
+}
+.custom-add-button {
+  background-color: #f97a45 !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-add-button:hover {
+  background-color: #d96640 !important;
+}
+
+.custom-back-button {
+  background-color: #19224d !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-back-button:hover {
+  background-color: #151b3b !important;
+}
